@@ -1,4 +1,4 @@
-# Important Ubuntu command for regular usage
+# Important Linux/Ubuntu commands for regular usage
 
 
 ### Check disk space
@@ -15,4 +15,21 @@ sudo du -hc --max-depth=1 /home/pragnakalp
 ```
 ```
 sudo du -sh /home/pragnakalp
+```
+
+### Check the Memory/RAM usage
+
+```
+free -m
+```
+
+### View any file in terminal
+
+```
+cat filename.txt
+```
+
+### Check history of all input commands
+```
+history
 ```
