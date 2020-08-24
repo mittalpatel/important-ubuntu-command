@@ -29,7 +29,28 @@ free -m
 cat filename.txt
 ```
 
-### Check history of all input commands
+### Check history of all commands
 ```
 history
+```
+
+### Untar the files
+
+```
+tar -xvf  'test.tar.gz' -C '/destination/folder'
+```
+
+### Search for folder/directory in the whole system
+
+```
+find / -xdev 2>/dev/null -name "dirname"
+```
+or with * wild card
+```
+sudo find / -name dirnam* -type d
+```
+
+### Search/find the file in 
+```
+locate filename | grep filename
 ```
